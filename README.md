@@ -6,11 +6,11 @@ packer build file_name
 
 this command will begin creating the image that the file has defined. this image will become an Amazon AMI
 
-terraform init .
+terraform init
 
 this command will initialize terraform by downloading the required plugins defined in the terraform file
 
-terraform build
+terraform apply
 
 this command will build an amazon EC2 instance with the Amazon AMI defined in the terraform file (should be the Amazon AMI created with packer)
 
